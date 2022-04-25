@@ -16,3 +16,6 @@ SELECT * FROM login ;
 CREATE USER 'usuario'@'localhost' IDENTIFIED BY 'senha';
 GRANT ALL PRIVILEGES ON sistema.* TO 'usuario'@'localhost' IDENTIFIED BY 'senha';
 FLUSH PRIVILEGES;
+
+# How to enable the MySQL/MariaDB general query logs
+https://gist.github.com/joseluisq/40ec9169669aa1848492141fa6f57fcb
