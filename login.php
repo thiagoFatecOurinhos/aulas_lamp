@@ -20,9 +20,9 @@ $consulta = mysqli_query($conexao, $query);
 $resposta = mysqli_fetch_array($consulta, MYSQLI_NUM);
 
 if($resposta[0])
-  print("<BR><BR>LOGIN OK");
+  print("<BR><BR>LOGIN OK<BR>");
 else
-  print("<BR><BR>ERRO AO LOGAR");
+  print("<BR><BR>ERRO AO LOGAR<BR>");
 
 
 ?>
